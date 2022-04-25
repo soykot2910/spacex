@@ -5,13 +5,6 @@ module.exports = {
       padding: {
         DEFAULT: "1rem",
         sm: "2rem",
-<<<<<<< HEAD
-        lg: "4rem",
-        xl: "5rem",
-        "2xl": "6rem",
-      },
-    },
-=======
         xl: "0rem",
       },
       center: true,
@@ -26,7 +19,6 @@ module.exports = {
     fontFamily: {
       poppins: ["Poppins", "sans-serif"],
     },
->>>>>>> 9e46c6e3b58dc5a48865d2888bef50d48051dcfc
   },
   plugins: [],
 };
