@@ -1,9 +1,9 @@
 import { configureStore } from '@reduxjs/toolkit';
-import launcheReducer from '../redux/slice/rocketLaunche';
+import launcheReducer from './slice/lanches';
 
 const store = configureStore({
   reducer: {
-    launche: launcheReducer,
+    launches: launcheReducer,
   },
 });
 export default store;
